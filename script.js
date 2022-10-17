@@ -11,4 +11,5 @@ function getAkanName() {
     var date = new Date(year + "-" + month + "-" + day);
     let dayOfWeek = date.getDay()
 
+
 }
