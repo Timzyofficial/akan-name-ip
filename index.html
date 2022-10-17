@@ -7,12 +7,12 @@
     <title>Akan Naming</title>
     <script src="./script.js"></script>
 </head>
-<body onload="myFunction()" >
+<body>
     <div>
         <p>Enter your birthday</p>
         <form>
-            <label>Date</label>
-            <input type="text" placeholder="01" name="date"  />
+            <label>Day</label>
+            <input type="text" placeholder="01" name="day"  />
             <label>Month</label>
             <input type="text" placeholder="01" name="month" />
             <label>Year</label>
@@ -24,9 +24,9 @@
             <input type="radio" id="female" name="gender">
         </form>
         <p>
-            <span>Name Here</span>
+            <span class="result">Name Here</span>
         </p>
-        <button>Get Name</button>
+        <button onclick="getAkanName()">Get Name</button>
     </div>
 </body>
 </html>
