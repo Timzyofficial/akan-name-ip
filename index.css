@@ -1,0 +1,20 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.form-group-label {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.yearWarning, .monthWarning, .dayWarning {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #c73232;
+}
+
+.main {
+     padding: 20px;
+}
