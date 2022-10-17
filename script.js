@@ -19,6 +19,9 @@ function getAkanName() {
     }else{
         akanName = femaleNames[dayOfWeek];
     }
+
+        
+
     let result = "Hi, your akan name : " + akanName + " and you were born on: " + days[dayOfWeek];
     document.getElementsByClassName("result")[0].innerHTML = result;
 

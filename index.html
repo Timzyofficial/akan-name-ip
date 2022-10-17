@@ -6,22 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Naming</title>
     <script src="./script.js"></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div>
-        <p>Enter your birthday</p>
+    <div class="main">
+        <h2>Enter your birthday</h2 >
         <form>
-            <label>Day</label>
-            <input type="text" placeholder="01" name="day"  />
-            <label>Month</label>
+            <div class="form-group">
+                <label for="day" class="form-group-label">Day</label>
+                <input type="text" placeholder="01" name="day"  />
+                <label for="" class="dayWarning"></label>
+            </div>
+            <div class="form-group">
+            <label class="form-group-label">Month</label>
             <input type="text" placeholder="01" name="month" />
-            <label>Year</label>
+            <label for="" class="monthWarning"></label>
+            </div>
+           <div class="form-group">
+            <label class="form-group-label">Year</label>
             <input type="number" placeholder="2022" name="year">
+            <label for="" class="yearWarning"></label>
+           </div>
             <h4>Gender</h4>
-            <label>Male</label>
             <input type="radio" id="male" name="gender">
-            <label>Female</label>
+            <label>Male</label>
             <input type="radio" id="female" name="gender">
+            <label>Female</label>
+
         </form>
         <p>
             <span class="result">&nbsp;</span>
